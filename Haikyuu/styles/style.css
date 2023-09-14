@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    font-size: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(imgs/Karasuno-background.png);
+    
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    overflow: visible;
+}
+
+.cabecalho-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15vw;
+    margin-left: 41vw;
+    opacity: 0.70;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.cabecalho-logo:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4);
+}
+
+.main-content {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.left-content{
+    margin-left: 30px;
+    padding-top: 100px;
+    padding-bottom: 220px;
+    width: 40vw;
+    display: block;
+    overflow: visible;
+}
+
+.left-content-title {
+    color: rgb(253,118,0);
+    font-family: 'Righteous', cursive;
+    font-size: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.87;
+    margin-right: 5vw;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.left-content-title:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.left-content > h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+    font-size: 1.5vw;
+    padding-top: 5px;
+    display: block;
+}
+
+
+.right-content > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 45vw;  
+    overflow: visible;
+}
+
+.right-image {
+    width: 10vw;
+    padding: 15px;
+    display: block;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.right-image:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.25);
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 0.4px solid rgb(253,118,0);
+}
+
+.whatsapp {
+    color: rgb(253,118,0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.whatsapp:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.5);
+}
+.whatsapp-logo {
+    width: 5vw;
+    height: 5vh;
+}
+
+.login-register {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    margin-left: 20vw;
+    opacity: 0.85;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    padding: 1.3em 2.5em;
+    background: none;
+    border: 1px transparent gray;
+    font-family: 'Righteous', cursive;
+    font-size:  15px;
+    color: #131313;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: rgb(254, 164, 8);
+    font-weight: bolder;
+    box-shadow: 0 1.5px 0 1.5px #000;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.login:hover {
+    background-color: #ff2a00;
+    color: #fff;
+    box-shadow: #0d3b66;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+.login::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #00fffb;
+    top: 50%;
+    transform: skew(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.login:hover::before {
+    transform: skew(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+
+.register {
+    position: relative;
+    display: flex;
+    padding: 1.2em 0.6em;
+    background: none;
+    border: 1px transparent gray;
+    font-family: 'Righteous', cursive;
+    font-size:  15px;
+    color: #131313;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: rgb(254, 164, 8);
+    font-weight: bolder;
+    box-shadow: 0 1.5px 0 1.5px #000;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.register:hover {
+    background-color: #ff2a00;
+    color: #fff;
+    box-shadow: #0d3b66;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.register::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #00fffb;
+    top: 50%;
+    transform: skew(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.register:hover::before {
+    transform: skew(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+
+
+
+
+
+
+
