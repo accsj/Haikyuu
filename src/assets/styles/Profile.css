@@ -1,0 +1,45 @@
+.main_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: default;
+}
+
+.profile_container {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+    padding: 2rem 6rem 2rem;
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    border-radius: 1rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.profile_image {
+    width: 14rem;
+    border-radius: 50%;
+    border: 4px solid rgb(209, 101, 0);
+    margin: 1.2rem 0.5rem 1.2rem 0.5rem;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.profile_image:hover {
+    -webkit-transform: scale(1.17);
+    transform: scale(1.17);
+}
+
+
+

@@ -1,0 +1,96 @@
+.login-register {
+    position: relative;
+    display: flex;
+    gap: 25px;
+    margin-left: 20vw;
+    opacity: 0.85;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    padding: 1.3em 2.5em;
+    background: none;
+    border: 1px transparent gray;
+    font-family: 'Righteous', cursive;
+    font-size:  15px;
+    color: #131313;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: rgb(254, 164, 8);
+    font-weight: bolder;
+    box-shadow: 0 1.5px 0 1.5px #000;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.login:hover {
+    background-color: #ff2a00;
+    color: #fff;
+    box-shadow: #0d3b66;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+}
+
+.login::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #00fffb;
+    top: 50%;
+    transform: skew(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.login:hover::before {
+    transform: skew(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}
+
+.register {
+    position: relative;
+    display: flex;
+    padding: 1.2em 0.6em;
+    background: none;
+    border: 1px transparent gray;
+    font-family: 'Righteous', cursive;
+    font-size:  15px;
+    color: #131313;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s;
+    border-radius: 12px;
+    background-color: rgb(254, 164, 8);
+    font-weight: bolder;
+    box-shadow: 0 1.5px 0 1.5px #000;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.register:hover {
+    background-color: #ff2a00;
+    color: #fff;
+    box-shadow: #0d3b66;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.register::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 120%;
+    background-color: #00fffb;
+    top: 50%;
+    transform: skew(30deg) translate(-150%, -50%);
+    transition: all 0.5s;
+}
+
+.register:hover::before {
+    transform: skew(30deg) translate(150%, -50%);
+    transition-delay: 0.1s;
+}

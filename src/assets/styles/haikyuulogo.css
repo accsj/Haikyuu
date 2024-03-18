@@ -1,0 +1,16 @@
+.cabecalho-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 15vw;
+    margin-left: 41vw;
+    opacity: 0.70;
+    height: auto;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.cabecalho-logo:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.4);
+}

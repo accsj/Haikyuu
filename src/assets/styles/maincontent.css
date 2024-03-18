@@ -1,0 +1,35 @@
+.left-content{
+    margin-left: 2rem;
+    padding-bottom: 14rem;
+    width: 40rem;
+    display: block;
+    overflow: visible;
+}
+
+.left-content-title {
+    color: rgb(253,118,0);
+    font-family: 'Righteous', cursive;
+    font-size: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.87;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.left-content-title:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.left-content > h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Righteous', cursive;
+    font-size: 1.5vw;
+    padding-top: 5px;
+    display: block;
+}

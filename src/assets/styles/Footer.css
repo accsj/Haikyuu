@@ -1,0 +1,27 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 0.4px solid rgb(253,118,0);
+}
+
+.whatsapp {
+    color: rgb(253,118,0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.whatsapp:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.5);
+}
+.whatsapp-logo {
+    width: 5vw;
+    height: 5vh;
+}
