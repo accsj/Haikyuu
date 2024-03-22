@@ -20,3 +20,24 @@
     transform: scale(1.1);
 
 }
+
+@media screen and (max-width:1230px) {
+    .user_button {
+        margin-left: 20rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .user_button {
+        margin-left: 16rem;
+    }
+}
+
+
+@media screen and (max-width:850px) {
+    .user_button {
+        display: none;
+    }
+}
+
+

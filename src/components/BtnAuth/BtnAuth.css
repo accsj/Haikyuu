@@ -94,3 +94,11 @@
     transform: skew(30deg) translate(150%, -50%);
     transition-delay: 0.1s;
 }
+
+
+@media screen and (max-width:1120px) {
+    .login-register {
+        display: none;
+    }
+    
+}

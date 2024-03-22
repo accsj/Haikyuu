@@ -14,3 +14,12 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.4);
 }
+
+@media screen and (max-width:850px) {
+    .cabecalho-logo {
+        padding-top: 2rem;
+        
+        width: 100%;
+    }
+    
+}

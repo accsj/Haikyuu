@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../assets/styles/AuthProfile.css'
-import HinataImage from '../../assets/imgs/Hinata-logo.png'
+import HinataImage from '../../assets/imgs/Hinata-logo.png';
+import '../AuthProfile/AuthProfile.css';
 
 
 
@@ -11,7 +11,6 @@ const AuthProfile = () => {
                 <a href='/profile'>
                     <img src={HinataImage} alt="Profile" className="user_image" />
                 </a>
-
             </button>
         </div>
         

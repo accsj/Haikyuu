@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../assets/styles/loginregister.css';
 import AuthHeader from "../../components/Header/HeaderAuth/AuthHeader"
 import { useState } from 'react';
 import Axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '../../assets/styles/Auth.css';
 
 
 
@@ -73,7 +73,7 @@ export default function RegisterPage() {
             return;
         }
         try {
-            const response = await Axios.post("http://localhost:5000/register", {
+            const response = await Axios.post("https://haikyuu-server.onrender.com/register", {
                 login,
                 email,
                 password

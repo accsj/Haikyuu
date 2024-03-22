@@ -33,3 +33,26 @@
     padding-top: 5px;
     display: block;
 }
+
+
+@media screen and (max-width:1400px) {
+    .main-content {
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding-top: 8rem;
+    }
+    .left-content-title {
+        padding-left: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:850px) {
+    .left-content > h2{
+        font-size: 1rem;
+        margin: 0 4rem;
+
+    }
+    
+}

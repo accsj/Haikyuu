@@ -1,4 +1,4 @@
-import '../../assets/styles/BtnAuth.css'
+import '../BtnAuth/BtnAuth.css'
 
 export default function BtnAuth() {
     return (

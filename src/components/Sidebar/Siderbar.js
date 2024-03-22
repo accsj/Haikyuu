@@ -1,4 +1,4 @@
-import '../../assets/styles/Sidebar.css'
+import '../Sidebar/Sidebar.css';
 
 export default function Aside() {
     return (

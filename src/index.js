@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
-import Content from './components/Main-content/Content';
+import Content from './components/MainContent/Content';
 import HinataPage from './pages/Hinata/Hinata';
 import KageyamaPage from './pages/Kageyama/Kageyama';
 import NishinoyaPage from './pages/Nishinoya/Nishinoya';
@@ -42,7 +42,7 @@ const AppRouter = () => {
                 <Route exact path="register" element={isAutenticado ? <Navigate to='/profile' /> : <RegisterPage/>} />
                 <Route exact path='recovery' element={isAutenticado ? <Navigate to='/'/> : <RecoveryPage />} />
                 <Route exact path='password-recovery/:token' element={isAutenticado ? <Navigate to='/'/> : <PassRecovery />} />
-                <Route path='profile' element={isAutenticado ? <ProfilePage /> : <Navigate to='/login'/>}/>
+                <Route exact path='profile' element={isAutenticado ? <ProfilePage /> : <Navigate to='/login'/>}/>
             </Routes>
         </Router>
     );

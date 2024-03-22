@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../assets/styles/loginregister.css';
 import AuthHeader from "../../components/Header/HeaderAuth/AuthHeader";
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import Axios from 'axios';
+import '../../assets/styles/Auth.css';
 
 
 
@@ -49,7 +49,7 @@ export default function PassRecovery() {
             return;
         }
         try {
-            const response = await Axios.post('http://localhost:5000/password-recovery', {
+            const response = await Axios.post('https://haikyuu-server.onrender.com/password-recovery', {
                 password,
                 token: token
             })

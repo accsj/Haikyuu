@@ -1,5 +1,5 @@
-import '../../assets/styles/Profile.css'
-import HinataImage from '../../assets/imgs/Hinata-logo.png'
+import HinataImage from '../../assets/imgs/Hinata-logo.png';
+import '../../assets/styles/Profile.css';
 
 export default function Profile() {
 

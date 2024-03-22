@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../assets/styles/loginregister.css'
 import AuthHeader from '../../components/Header/HeaderAuth/AuthHeader';
 import Axios from 'axios';
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
+import '../../assets/styles/Auth.css';
 
 
 
@@ -18,7 +18,7 @@ export default function RecoveryPage() {
         event.preventDefault();
 
         try {
-            const response = await Axios.post("http://localhost:5000/recovery", {
+            const response = await Axios.post("https://haikyuu-server.onrender.com/recovery", {
                 email
             });
             

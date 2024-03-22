@@ -1,4 +1,4 @@
-import '../../assets/styles/maincontent.css'
+import '../MainContent/MainContent.css';
 
 export default function Content() {
     return (

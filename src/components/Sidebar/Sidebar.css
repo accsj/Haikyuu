@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-left: 42vw;  
+    padding-left: 42rem;  
     padding-top: 4rem;
     overflow: visible;
 }
@@ -20,3 +20,20 @@
     -webkit-transform: scale(1.2);
     transform: scale(1.25);
 }
+
+
+
+@media screen and (max-width:1500px) {
+    .right-content {   
+        padding-right: 100%;
+    }
+    
+}
+
+@media screen and (max-width:1400px) {
+    .right-content {   
+        display: none;
+    }
+    
+}
+
