@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+## Este é o meu projeto pessoal Haikyuu.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A aplicação está em produção para teste, acesse: https://haikyuu.vercel.app/
 
-## Available Scripts
+Ele foi inicialmente criado apenas em html e css, porém conforme fui aprendendo a utilizar outras tecnologias eu decidi migrar ele de vez para o react, se você viu o meu repositório do back-end deste projeto, sabe que eu tive que lidar com requisições para o server side, para isso eu utilizei a biblioteca Axios e achei ela muito boa. Como dito anteriormente, tive que lidar com alguns problemas de CORS e CSP, o cors eu consegui resolver porém acabei deixando as funções que fazem as requisições para o banco de dados dentro de cada página que será requisitada para evitar o problema de CSP pois futuramente irei resolver.
 
-In the project directory, you can run:
+- A minha ideia com esse projeto era fazer landing pages com personagens do anime japônes Haikyuu, onde contassem suas respectivas histórias e que tivesse uma aba de comunidade, mas o que foi feito até agora?
+Até o momento eu tenho algumas pages para navegação sem conteúdo nenhum, foquei principalmente na lógica de segurança do login do cliente, para isso eu usei a biblioteca jwt-decode para decodificar e validar o token do usuário ao fazer login, novamente, se você leu o repositório antigo saberá que eu utilizei uma biblioteca chamada cookie-parser para armazenar o token gerado ao fazer login em um cookie de forma segura, e por fim garantindo a segurança e apenas necessitando fazer login caso o cookie seja deletado.
+- Ainda não tive a oportunidade de fazer a aba de comunidade, e na realidade nem sei por onde começar pois seria algo muito novo para mim, porém tenho planos de utilizar a api da disqus futuramente pois eu acho ela muito versátil e esteticamente bonita.
+- Utilizei a biblioteca react-toastify para sinalizar para os usuários as operações de fetch como login, registro, recovery e redefinição de senha, tratando de sinalizar operações concluídas (201) e sinalizando os erros com o servidor, eu gostei muito da biblioteca e irei usar-la mais vezes.
+- No repositório do back-end eu citei que ao usuário requisitar uma troca de senha, o link enviado para o email do mesmo conteria o token com um tempo de validação, e para obter o mesmo eu usei o params do react para pegar diretamente da url.
 
-### `npm start`
+Com isso o meu projeto não está concluido ainda, mas grande parte dele foi feito offline, porém a partir de hoje irei deixar ele por aqui, para tentar melhorar minhas atividades dentro do GitHub, então podem esperar diversas mudanças por aqui, e muitos commits.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+OBS: Atualmente estou testando formas de obter informações de usuário como data de criação de conta, armazenamento de imagens e requisição para uma futura criação de página Profile, porém a que tem no projeto até o momento é algo meramente ilustrativo sem refletir na conta real do usuário, é apenas para teste.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
