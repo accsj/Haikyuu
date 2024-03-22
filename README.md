@@ -14,3 +14,14 @@ Com isso o meu projeto não está concluido ainda, mas grande parte dele foi fei
 
 OBS: Atualmente estou testando formas de obter informações de usuário como data de criação de conta, armazenamento de imagens e requisição para uma futura criação de página Profile, porém a que tem no projeto até o momento é algo meramente ilustrativo sem refletir na conta real do usuário, é apenas para teste.
 
+
+![Screenshot 2024-03-21 at 22-56-38 Haikyuu !!](https://github.com/accsj/Haikyuu/assets/109449153/c8e9cc60-48a6-42f9-8343-39cf0f964131)
+
+
+![Screenshot 2024-03-21 at 22-56-46 Haikyuu !!](https://github.com/accsj/Haikyuu/assets/109449153/01832cc5-a4a0-4c57-b1b0-ff4cc2ce5e34)
+
+
+![Screenshot 2024-03-21 at 22-56-52 Haikyuu !!](https://github.com/accsj/Haikyuu/assets/109449153/c8268b9b-cb0b-4053-bc20-05c62c263bd3)
+
+
+![Screenshot 2024-03-21 at 22-58-47 Haikyuu !!](https://github.com/accsj/Haikyuu/assets/109449153/4ec24d49-b5cf-4151-86a5-c778d6be859f)
