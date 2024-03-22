@@ -23,7 +23,6 @@ import useCheckAuthentication from './api/Auth/Auth';
 
 const AppRouter = () => {
     const isAutenticado = useCheckAuthentication();
-    console.log(isAutenticado);
 
     return (
         <Router>
